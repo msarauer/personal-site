@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+$fontColor: rgb(31, 31, 31);
+$hoverColor: rgb(140, 42, 89);
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Lato";
+  color: $fontColor;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px auto;
+  font-weight: 700;
+  font-size: large;
+  .links {
+    display: inline-block;
+    text-align: center;
+    a {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid transparent;
+    }
+  }
+  .contact {
+    text-align: right;
+  }
+  a:hover {
+    color: $hoverColor;
+    border-color: $hoverColor;
+  }
+}
