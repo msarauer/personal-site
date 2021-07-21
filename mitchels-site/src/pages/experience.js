@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/experience.module.scss"
 
-const experience = ({ data }) => {
+const Experience = ({ data }) => {
   const jobs = data.jobs.nodes
 
   return (
@@ -26,7 +26,7 @@ const experience = ({ data }) => {
   )
 }
 
-export default experience
+export default Experience
 
 export const query = graphql`
   query ExperiencePage {
