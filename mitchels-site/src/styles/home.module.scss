@@ -1,0 +1,21 @@
+@import "variables";
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  height: 50vh;
+  h1 {
+    font-weight: 300;
+    span {
+      color: $hoverColor;
+    }
+  }
+  h3 {
+    padding-top: 10px;
+    font-weight: 300;
+  }
+}

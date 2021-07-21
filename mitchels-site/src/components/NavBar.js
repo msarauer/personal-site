@@ -4,15 +4,13 @@ import React from "react"
 const NavBar = () => {
   return (
     <nav>
-      <Link to="/">MITCHEL SARAUER</Link>
       <div className="links">
         <Link to="/">HOME</Link>
+        <Link to="/experience">EXPERIENCE</Link>
         <Link to="/projects/">PROJECTS</Link>
         <Link to="/articles/">ARTICLES</Link>
+        <Link to="/contacts/">CONTACT</Link>
       </div>
-      <Link to="/contacts/" className="contact">
-        CONTACT
-      </Link>
     </nav>
   )
 }

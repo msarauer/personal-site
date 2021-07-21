@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 
-$fontColor: rgb(31, 31, 31);
-$hoverColor: rgb(140, 42, 89);
+@import "variables";
 
 * {
   margin: 0;
@@ -18,29 +17,47 @@ body {
 .layout {
   max-width: 1200px;
   margin: 0 auto;
-}
-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 40px auto;
-  font-weight: 700;
-  font-size: large;
-  .links {
-    display: inline-block;
-    text-align: center;
-    a {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px auto;
+    font-weight: 400;
+    font-size: medium;
+    .links {
       display: inline-block;
-      margin-left: 20px;
-      margin-right: 20px;
-      padding-bottom: 8px;
-      border-bottom: 3px solid transparent;
+      text-align: center;
+      a {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 8px;
+        transition: 0.5s;
+        &:hover {
+          color: $hoverColor;
+        }
+      }
     }
   }
-  .contact {
-    text-align: right;
-  }
-  a:hover {
-    color: $hoverColor;
-    border-color: $hoverColor;
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 20px;
+
+    .brandIcon {
+      cursor: pointer;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .icons:hover .brandIcon {
+      color: red;
+    }
+
+    .copyright {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 }
