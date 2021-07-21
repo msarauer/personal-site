@@ -5,11 +5,21 @@ const NavBar = () => {
   return (
     <nav>
       <div className="links">
-        <Link to="/">HOME</Link>
-        <Link to="/experience">EXPERIENCE</Link>
-        <Link to="/projects/">PROJECTS</Link>
-        <Link to="/articles/">ARTICLES</Link>
-        <Link to="/contacts/">CONTACT</Link>
+        <Link activeClassName="active" to="/">
+          HOME
+        </Link>
+        <Link activeClassName="active" to="/experience">
+          EXPERIENCE
+        </Link>
+        <Link activeClassName="active" to="/projects/">
+          PROJECTS
+        </Link>
+        <Link activeClassName="active" to="/articles/">
+          ARTICLES
+        </Link>
+        <Link activeClassName="active" to="/contacts/">
+          CONTACT
+        </Link>
       </div>
     </nav>
   )

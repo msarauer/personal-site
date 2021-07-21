@@ -36,6 +36,9 @@ body {
           color: $hoverColor;
         }
       }
+      .active {
+        color: $hoverColor;
+      }
     }
   }
   footer {
