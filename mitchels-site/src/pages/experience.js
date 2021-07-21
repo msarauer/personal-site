@@ -5,7 +5,7 @@ import * as styles from "../styles/experience.module.scss"
 
 const experience = ({ data }) => {
   const jobs = data.jobs.nodes
-  console.log(data)
+
   return (
     <Layout>
       <div className={styles.layout}>

@@ -2,12 +2,14 @@
 
 .layout {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 300px;
   gap: 50px;
-  height: 50vh;
+  height: 70vh;
   justify-content: center;
-}
+  align-content: center;
+  overflow-y: auto;
 
-h3 {
-  color: $hoverColor;
+  h3 {
+    color: $hoverColor;
+  }
 }
