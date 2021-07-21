@@ -17,6 +17,9 @@ const NavBar = () => {
         <Link activeClassName="active" to="/articles/">
           ARTICLES
         </Link>
+        <Link activeClassName="active" to="/about/">
+          ABOUT
+        </Link>
         <Link activeClassName="active" to="/contacts/">
           CONTACT
         </Link>
