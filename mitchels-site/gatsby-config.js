@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-fontawesome-css`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `experience`,
+        path: `${__dirname}/src/experience/`,
+      },
+    },
+  ],
 }
