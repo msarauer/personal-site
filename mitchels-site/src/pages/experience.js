@@ -8,15 +8,15 @@ const experience = ({ data }) => {
   console.log(data)
   return (
     <Layout>
-      <div>
+      <div className={styles.layout}>
         {jobs.map(job => {
           return (
             <div>
               <h2>{job.frontmatter.company}</h2>
               <h3>{job.frontmatter.position}</h3>
-              <h3>
+              <h4>
                 {job.frontmatter.startDate} - {job.frontmatter.endDate}
-              </h3>
+              </h4>
               <div dangerouslySetInnerHTML={{ __html: job.html }} />
             </div>
           )

@@ -1,16 +1,13 @@
-.message {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
+@import "variables";
+
+.layout {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 50px;
   height: 50vh;
-  h1 {
-    font-weight: 300;
-  }
-  h3 {
-    padding-top: 10px;
-    font-weight: 300;
-  }
+  justify-content: center;
+}
+
+h3 {
+  color: $hoverColor;
 }
