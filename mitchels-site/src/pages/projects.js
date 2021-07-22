@@ -8,18 +8,18 @@ const projects = ({ data }) => {
   console.log(projects)
   return (
     <Layout>
-      <div className={styles.layout}>
+      <ul className={styles.layout}>
         {projects.map(project => {
           return (
-            <div>
+            <li>
               <Link to={project.frontmatter.link}>
-                <h3>{project.frontmatter.title}</h3>
+                <h3> {project.frontmatter.title}</h3>
               </Link>
               <div dangerouslySetInnerHTML={{ __html: project.html }} />
-            </div>
+            </li>
           )
         })}
-      </div>
+      </ul>
     </Layout>
   )
 }
@@ -30,6 +30,7 @@ export const query = graphql`
   query ProjectsPage {
     project: allMarkdownRemark(
       filter: { frontmatter: { key: { eq: "project" } } }
+      sort: { fields: frontmatter___order, order: DESC }
     ) {
       nodes {
         frontmatter {

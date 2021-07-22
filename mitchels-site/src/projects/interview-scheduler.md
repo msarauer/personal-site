@@ -2,6 +2,7 @@
 key: project
 title: Interview Scheduler
 link: https://github.com/msarauer/scheduler
+order: 1
 ---
 
 <!-- ### Stack
