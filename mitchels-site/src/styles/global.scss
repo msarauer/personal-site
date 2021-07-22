@@ -7,7 +7,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Lato";
-  font-weight: 400;
+  font-weight: 300;
   color: $fontColor;
 }
 
@@ -22,7 +22,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     margin: 40px auto;
-    font-weight: 400;
     font-size: medium;
     .links {
       display: inline-block;
@@ -45,7 +44,6 @@ body {
   footer {
     display: grid;
     grid-template-columns: 1fr;
-    font-weight: 400;
     text-align: left;
     padding-top: 20px;
 

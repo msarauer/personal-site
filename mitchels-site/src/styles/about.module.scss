@@ -16,26 +16,6 @@
       color: $hoverColor;
     }
   }
-  li {
-    margin-bottom: 50px;
-    list-style-type: none;
-    h3 {
-      transition: 0.5s;
-    }
-    h3:hover {
-      color: $hoverColor;
-    }
-    .description {
-      ul {
-        margin-top: 7px;
-        li {
-          display: inline;
-          color: $lightText;
-          margin-right: 10px;
-        }
-      }
-    }
-  }
 }
 
 // .inner {

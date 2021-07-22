@@ -8,7 +8,6 @@
   align-items: flex-start;
   width: 30%;
   height: 70vh;
-
   h1 {
     font-weight: 300;
     span {
@@ -24,5 +23,12 @@
 .aboutLink {
   color: $hoverColor;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1.5px;
 }
+
+// .inner {
+//   padding: 15px;
+//   border: 1.5px solid;
+//   // border-color: $hoverColor;
+//   border-radius: 20px;
+// }

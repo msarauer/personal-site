@@ -7,17 +7,19 @@ const Home = () => {
   return (
     <Layout>
       <div className={styles.welcome}>
-        <h1>
-          Hi, I'm <span> Mitchel Sarauer</span>.
-        </h1>
-        <h3>I'm a Full Stack Web Developer.</h3>
-        <h3>Welcome to my site.</h3>
-        <h3>
-          <Link className={styles.aboutLink} to="/about/">
-            Learn more
-          </Link>{" "}
-          about me.
-        </h3>
+        <div className={styles.inner}>
+          <h1>
+            Hi, I'm <span> Mitchel Sarauer</span>.
+          </h1>
+          <h3>I'm a Full Stack Web Developer.</h3>
+          <h3>Welcome to my site.</h3>
+          <h3>
+            <Link className={styles.aboutLink} to="/about/">
+              Learn more
+            </Link>{" "}
+            about me.
+          </h3>
+        </div>
       </div>
     </Layout>
   )
