@@ -5,14 +5,9 @@ link: https://github.com/msarauer/personal-site
 order: 4
 ---
 
-<!--
-### Stack
+My personal website.
 
 - React
 - Gatsby
 - GraphQL
 - Sass
-
-### Description -->
-
-The personal website of Mitchel Sarauer.

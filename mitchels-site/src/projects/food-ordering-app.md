@@ -5,7 +5,7 @@ link: https://github.com/msarauer/food-ordering-app
 order: 2
 ---
 
-<!-- ### Stack
+A food ordering app for a restaurant.
 
 - JQuery
 - Express
@@ -13,7 +13,3 @@ order: 2
 - PostgreSQL
 - Sass
 - Twilio
-
-### Description -->
-
-A food ordering app for a restaurant.

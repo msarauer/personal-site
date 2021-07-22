@@ -5,17 +5,12 @@ link: https://github.com/msarauer/better-place
 order: 3
 ---
 
-<!-- ### Stack
+Site to find volunteers for small projects.
 
 - React
 - Material UI
 - Express
-- NodeJS,
+- NodeJS
 - PostgreSQL
 - Sass
 - Socket.io
-- Google Maps API -->
-<!--
-### Description -->
-
-Site to find volunteers for small projects.

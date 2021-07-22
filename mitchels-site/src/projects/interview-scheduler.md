@@ -5,19 +5,15 @@ link: https://github.com/msarauer/scheduler
 order: 1
 ---
 
-<!-- ### Stack
+Interview scheduling app.
 
 - React
 - Axios
 - Express
-- NodeJS,
+- NodeJS
 - PostgreSQL
 - Sass
 - Storybook
 - Jest
 - Testing Library
 - Cypress
-
-### Description -->
-
-Interview scheduling app.

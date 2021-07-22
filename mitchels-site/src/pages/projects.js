@@ -8,18 +8,26 @@ const projects = ({ data }) => {
   console.log(projects)
   return (
     <Layout>
-      <ul className={styles.layout}>
-        {projects.map(project => {
-          return (
-            <li>
-              <Link to={project.frontmatter.link}>
-                <h3> {project.frontmatter.title}</h3>
-              </Link>
-              <div dangerouslySetInnerHTML={{ __html: project.html }} />
-            </li>
-          )
-        })}
-      </ul>
+      <div className={styles.layout}>
+        <h1>
+          These are my <span> Projects</span>.
+        </h1>
+        <ul>
+          {projects.map(project => {
+            return (
+              <li>
+                <Link to={project.frontmatter.link}>
+                  <h3> {project.frontmatter.title}</h3>
+                </Link>
+                <div
+                  className={styles.description}
+                  dangerouslySetInnerHTML={{ __html: project.html }}
+                />
+              </li>
+            )
+          })}
+        </ul>
+      </div>
     </Layout>
   )
 }
