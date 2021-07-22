@@ -9,13 +9,35 @@
   align-content: center;
   overflow-y: auto;
 
+  span {
+    color: $hoverColor;
+  }
   h1 {
     font-weight: 300;
     padding-bottom: 50px;
-    span {
+  }
+}
+.stack {
+  ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    h4 {
       color: $hoverColor;
     }
+    li {
+      display: inline;
+      margin-right: 10px;
+      color: $lightText;
+    }
   }
+}
+.resume {
+  margin-top: 20px;
+}
+.resumeLink {
+  color: $hoverColor;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
 }
 
 // .inner {
