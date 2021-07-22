@@ -17,5 +17,12 @@ module.exports = {
         path: `${__dirname}/src/experience/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `experience`,
+        path: `${__dirname}/src/projects/`,
+      },
+    },
   ],
 }
